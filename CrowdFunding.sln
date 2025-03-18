@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowdFunding", "CrowdFunding\CrowdFunding.csproj", "{14F83FE1-929E-4B82-B177-0994631094E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CORE", "CORE", "{91C8B2DF-DCA6-4370-983B-9523D9AE4483}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStore", "DataStore", "{29E60371-981B-49D1-B69F-37AA1EF16D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStore.Abstraction", "DataStore.Abstraction\DataStore.Abstraction.csproj", "{90870A3B-A07B-4006-AE44-FF2B78912C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStore.Implementation", "DataStore.Implementation\DataStore.Implementation.csproj", "{B83EA267-35E6-4D5E-B641-1C7C81E91982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FeatureObjects", "FeatureObjects", "{1B2C7702-4B51-409B-BBBC-CD9FCBC13949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureObjects.Abstraction", "FeatureObjects.Abstractions\FeatureObjects.Abstraction.csproj", "{1B5A2337-A4A3-4E8D-BD96-057A9585E1BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureObjects.Implementation", "FeatureObjects.Implementation\FeatureObjects.Implementation.csproj", "{927DAFEC-19AB-464C-9882-D05451D8AA12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptions", "Exceptions", "{441F6DB8-C128-4E0F-BB60-DCCDE37777CF}"
+	ProjectSection(SolutionItems) = preProject
+		DatabaseException.cs = DatabaseException.cs
+		NullException.cs = NullException.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14F83FE1-929E-4B82-B177-0994631094E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F83FE1-929E-4B82-B177-0994631094E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F83FE1-929E-4B82-B177-0994631094E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F83FE1-929E-4B82-B177-0994631094E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90870A3B-A07B-4006-AE44-FF2B78912C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90870A3B-A07B-4006-AE44-FF2B78912C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90870A3B-A07B-4006-AE44-FF2B78912C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90870A3B-A07B-4006-AE44-FF2B78912C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83EA267-35E6-4D5E-B641-1C7C81E91982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83EA267-35E6-4D5E-B641-1C7C81E91982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83EA267-35E6-4D5E-B641-1C7C81E91982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83EA267-35E6-4D5E-B641-1C7C81E91982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5A2337-A4A3-4E8D-BD96-057A9585E1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5A2337-A4A3-4E8D-BD96-057A9585E1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5A2337-A4A3-4E8D-BD96-057A9585E1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5A2337-A4A3-4E8D-BD96-057A9585E1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{927DAFEC-19AB-464C-9882-D05451D8AA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927DAFEC-19AB-464C-9882-D05451D8AA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927DAFEC-19AB-464C-9882-D05451D8AA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927DAFEC-19AB-464C-9882-D05451D8AA12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29E60371-981B-49D1-B69F-37AA1EF16D66} = {91C8B2DF-DCA6-4370-983B-9523D9AE4483}
+		{90870A3B-A07B-4006-AE44-FF2B78912C2E} = {29E60371-981B-49D1-B69F-37AA1EF16D66}
+		{B83EA267-35E6-4D5E-B641-1C7C81E91982} = {29E60371-981B-49D1-B69F-37AA1EF16D66}
+		{1B2C7702-4B51-409B-BBBC-CD9FCBC13949} = {91C8B2DF-DCA6-4370-983B-9523D9AE4483}
+		{1B5A2337-A4A3-4E8D-BD96-057A9585E1BB} = {1B2C7702-4B51-409B-BBBC-CD9FCBC13949}
+		{927DAFEC-19AB-464C-9882-D05451D8AA12} = {1B2C7702-4B51-409B-BBBC-CD9FCBC13949}
+		{441F6DB8-C128-4E0F-BB60-DCCDE37777CF} = {29E60371-981B-49D1-B69F-37AA1EF16D66}
+	EndGlobalSection
+EndGlobal
